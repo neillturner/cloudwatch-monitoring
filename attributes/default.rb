@@ -1,0 +1,7 @@
+default[:cw_mon][:user]              = "ubuntu"
+default[:cw_mon][:group]             = "ubuntu"
+default[:cw_mon][:home_dir]          = "/home/ubuntu"
+default[:cw_mon][:version]           = "1.1.0"
+default[:cw_mon][:release_url]       = "http://ec2-downloads.s3.amazonaws.com/cloudwatch-samples/CloudWatchMonitoringScripts-v1.1.0.zip"
+default[:cw_mon][:aws_access_key]    = "<insert access key>"
+default[:cw_mon][:aws_secret_key]    = "<insert secret access key>"
